@@ -59,7 +59,7 @@
 
 							<div class="price-product"><p><?php echo $product['price']; ?></p></div>
 							<div class="price-product"><p><?php echo $product['total']; ?></p></div>
-							<div class="delete-cart"><a href="<?php echo $product['remove']; ?>"></a></div>
+							<div class="delete-cart"><a href="<?php echo $product['remove']; ?>" data-tips="Очистить" class="top-tip"></a></div>
 							<div class="clear"></div>
 						</div>
 						<?php } ?>

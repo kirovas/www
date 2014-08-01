@@ -45,6 +45,16 @@ $(document).ready(function() {
         speed: 500
     });
 
+    $("#mini-img-slider").jCarouselLite({
+        vertical: false,
+        hoverPause: true,
+        btnPrev: "#index-news-prev",
+        btnNext: "#index-news-next",
+        visible: 6,
+        auto: 5000,
+        speed: 1000
+    });
+
     $("#shop-feedback-list").jCarouselLite({
         vertical: true,
         hoverPause: true,

@@ -34,19 +34,6 @@
 		</div>
 		<?php } ?>
 
-<script type="text/javascript">
-    $("#mini-img-slider").jCarouselLite({
-        vertical: false,
-        circular: false,
-        hoverPause: true,
-        btnPrev: "#index-news-prev",
-        btnNext: "#index-news-next",
-        visible: 4,
-        auto: 5000,
-        speed: 1000
-    });
-</script>
-
 	</div><!--product-item-img-->
 	<div class="product-item-desc">
 
