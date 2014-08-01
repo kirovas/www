@@ -1,4 +1,5 @@
 <?php echo $header; ?>
+
 <div id="block-body">
 	<div class="index-top-block">
 		<div class="lc">
