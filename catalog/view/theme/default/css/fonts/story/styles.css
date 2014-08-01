@@ -1,0 +1,9 @@
+
+@font-face {
+	font-family: 'Story';
+	src: url('Story.eot?') format('eot'), 
+	     url('Story.otf')  format('opentype'),
+	     url('Story.woff') format('woff'), 
+	     url('Story.ttf')  format('truetype'),
+	     url('Story.svg#Story') format('svg');
+}

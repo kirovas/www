@@ -1,0 +1,56 @@
+html, body, div, span, applet, object, iframe,
+ blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, font, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, legend,
+ table, tbody, tfoot, thead, tr, th {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+ }
+ 
+ /*Нестандартный Шрифт*/
+
+@font-face {
+	font-family: 'story';
+	src: url('fonts/story/Story.eot?') format('eot'), 
+	     url('fonts/story/Story.otf')  format('opentype'),
+	     url('fonts/story/Story.woff') format('woff'), 
+	     url('fonts/story/Story.ttf')  format('truetype'),
+	     url('fonts/story/Story.svg#Story') format('svg');
+}
+ 
+ body {
+    background-color: #FFFFFF;
+    background-image: url("../images/bg-body.jpg");
+    background-position: 0 116px;
+    background-repeat: repeat-x;
+    color: #2B2B2B;
+    font-family: story;
+ }
+ ol, ul {
+ list-style: none;
+ }
+ blockquote, q {
+ quotes: none;
+ }
+ :focus {
+ outline: 0;
+ }
+ ins {
+ text-decoration: none;
+ }
+ del {
+ text-decoration: line-through;
+ }
+ table {
+ border-collapse: collapse;
+ border-spacing: 0;
+ }
